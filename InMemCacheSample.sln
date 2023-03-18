@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemCacheConsole", "InMemCacheConsole\InMemCacheConsole.csproj", "{529C0D9C-F2CD-4BF5-A59D-B2E256D99D64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemCacheMinimalApi", "InMemCacheMinimalApi\InMemCacheMinimalApi.csproj", "{7D84C774-7652-4AC9-93E9-9449B4612695}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{529C0D9C-F2CD-4BF5-A59D-B2E256D99D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529C0D9C-F2CD-4BF5-A59D-B2E256D99D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529C0D9C-F2CD-4BF5-A59D-B2E256D99D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529C0D9C-F2CD-4BF5-A59D-B2E256D99D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D84C774-7652-4AC9-93E9-9449B4612695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D84C774-7652-4AC9-93E9-9449B4612695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D84C774-7652-4AC9-93E9-9449B4612695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D84C774-7652-4AC9-93E9-9449B4612695}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1CB76D9-3113-4DAA-A73F-8DAAA16E949A}
+	EndGlobalSection
+EndGlobal
