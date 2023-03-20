@@ -71,10 +71,11 @@ namespace InMemCacheMinimalApi.Cache.Internal
             }
             if (doUpdate)
             {
-                _logger.LogInformation("Start automatic update of {ICachedDataEntry}", typeOfICachedDataEntry);
+                _logger.LogInformation("Generation of {ICachedDataEntry} is started.", typeOfICachedDataEntry);
                 ICachedDataEntry newDataEntry = await producer.GenerateDataAsync();
                 if (newDataEntry.GetType().ToString() != typeOfICachedDataEntry)
                     throw new Exception("Producer returns object of wrong type");
+                _logger.LogInformation("Generation of {ICachedDataEntry} is finished.", typeOfICachedDataEntry);
                 lock (_cachedDataRepository)
                 {
                     var newData = new CachedData(newDataEntry)

@@ -1,6 +1,6 @@
 ﻿namespace InMemCacheMinimalApi.Cache
 {
-    internal interface ICachedDataRepository
+    public interface ICachedDataRepository
     {
         public ICachedDataEntry? GetEntry(Type typeOfICachedDataEntry);
 

@@ -3,7 +3,7 @@
     /// <summary>
     /// From the class that implements this interface, all cache objects are created and updated.
     /// </summary>
-    internal interface ICachedDataUpdater
+    public interface ICachedDataUpdater
     {
         public Task RunNeededUpdatesAsync();
 

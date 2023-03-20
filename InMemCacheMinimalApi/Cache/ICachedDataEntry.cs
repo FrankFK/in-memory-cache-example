@@ -1,6 +1,6 @@
 ﻿namespace InMemCacheMinimalApi.Cache
 {
-    internal interface ICachedDataEntry
+    public interface ICachedDataEntry
     {
         /// <summary>
         /// If this time is over, the cache will automatically update the content

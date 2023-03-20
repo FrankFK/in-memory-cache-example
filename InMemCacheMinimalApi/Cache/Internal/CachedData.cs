@@ -40,8 +40,8 @@
                     result = State switch
                     {
                         CacheState.OK => $"Cached data, {Age} old, auto update in {AutoRefresh}",
-                        CacheState.ShouldBeUpdated => $"Cached data, {Age} hours old, but will be updated soon",
-                        CacheState.InUpdate => $"Cached data, {Age} hours old, update is running",
+                        CacheState.ShouldBeUpdated => $"Cached data, {Age} old, but will be updated soon",
+                        CacheState.InUpdate => $"Cached data, {Age} old, update is running",
                         _ => "Unexpceted state",
                     };
                 }
